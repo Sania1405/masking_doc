@@ -1,12 +1,3 @@
----
-title: Masking Doc
-emoji: 🌍
-colorFrom: purple
-colorTo: indigo
-sdk: docker
-pinned: false
----
-
 # Document Masking with OCR and AI
 ## Overview
 This project uses advanced OCR and AI detection to automatically identify and mask sensitive information in documents, specifically focusing on Aadhaar card numbers. The system combines EasyOCR for text detection, YOLO for object detection, and OpenCV for intelligent image processing to create a seamless masking effect. The process involves detecting document patterns, identifying sensitive information like Aadhaar numbers, and applying context-aware masking that preserves the document's natural appearance while protecting privacy.
